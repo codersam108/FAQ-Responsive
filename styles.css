@@ -1,0 +1,66 @@
+.attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    body{
+      height:100vh;
+      margin: 0;
+      padding: 0;
+      background-color:hsl(275, 100%, 97%);
+    }
+    .outer{
+      background-color: white;
+      max-width:400px;
+      display: flex;
+      flex-direction: column;
+      position: relative;
+      top:-150px;
+      z-index: 1;
+      left:450px;
+      padding:30px 50px 50px 60px;
+      border-radius: 20px;
+    }
+    .heading{
+      display: flex;
+      font-family: "Work Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 700;
+      font-style: normal;
+      font-size:xx-large;
+      gap:23px;
+      margin: 0px;
+      padding: 0px;
+      border: 0px;
+    }
+   
+    .h{
+      font-family: "Work Sans", sans-serif;
+      font-optical-sizing: auto;
+      font-weight: 600;
+      font-style: normal;
+      display: flex;
+      justify-content: space-between;
+    }
+    .h:hover{
+      color:hsl(277, 100%, 67%);
+      cursor: pointer;
+    }
+    h4{  color:hsl(0, 1%, 64%);
+      font-size: 16px;
+      font-family: "Work Sans", system-ui;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      display: none;
+    }
+   @media only screen and (min-width:375px)
+   {
+    body{
+      font-size: 16px;
+    }
+   }
+   @media only screen and(min-width:1440px)
+   {
+    body{
+      max-width:1440px;
+      margin:0 auto;
+    }
+   }
